@@ -4,7 +4,7 @@ import { User }    from './user';
 @Component({
   moduleId: module.id,  
   selector: 'my-app',
-  template: 'hero-form.component.html',
+  templateUrl: 'form.component.html',
 })
 export class AppComponent  { 
 

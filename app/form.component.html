@@ -6,7 +6,7 @@
       Checkout form
     </div>
 
-    <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+    <form (ngSubmit)="onSubmit()">
       <div class="top-section">
       <input type="text" class="firstName"
              [(ngModel)]="model.firstName" name="firstName" placeholder="First Name" required>
