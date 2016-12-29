@@ -30,6 +30,18 @@ import { User }    from './user';
              [(ngModel)]="model.additionalInfo" name="additionalInfo" placeholder="Additional info">
       <button type="submit" id="submit" >Submit</button>
 
+      <div class="name">
+        <div class="col-xs-3">Name: {{ model.firstName }} {{model.lastName}}</div>
+        <div class="col-xs-3">E-mail: {{ model.email }}</div>
+        <div class="col-xs-3">Phone: {{ model.phone }}</div>
+      </div>
+
+      <div class="address">
+        <div class="col-xs-3">Address: {{ model.address }}, {{ model.city }}, {{ model.postCode }}, {{ model.country}}</div>
+        <div class="col-xs-3">Additional info: {{ model.aditionalInfo }}</div>
+      
+
+
              `,
 })
 export class AppComponent  { 
