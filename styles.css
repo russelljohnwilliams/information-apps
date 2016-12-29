@@ -1,5 +1,141 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+/* -----------------------------
+
+
+form
+
+
+------------------------------ */
+
+body{
+  background: #acb6e0;
 }
+  
+div.form{
+  float: left;
+  width:595px;
+  height:auto;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  color:#333;
+  background-color:rgba(249, 251, 255,0.95);
+  -webkit-box-shadow: 0px 0px 18px -3px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 18px -3px rgba(0,0,0,1);
+  box-shadow: 0px 0px 25px -2px rgba(0,0,0,1);
+}
+
+.top-section, .lower-section{
+  padding:5px 0 25px 25px;
+}
+
+.top-section{
+  border-bottom: solid 1px #DADADA;
+}
+
+label{
+  font-size:15px;
+  font-weight:700
+}
+
+input, select{
+  background-repeat:no-repeat;
+  background-size: 15px 15px;
+  background-position:10px;
+  border: 2px solid #DADADA;
+  padding-left:10px;
+  margin: 20px 25px 0 0;
+  height:40px;
+  font-size:14px;
+}
+
+select{
+  color: black;
+  background: white;
+  height: 43px;
+  width: 210px;
+  border: solid 0 #DADADA;
+  outline: #DADADA solid 2px;
+  outline-offset: -1px;
+  padding-right: 100px;
+}
+
+.address{
+  width: 525px;
+}
+
+.additional{
+  width: 525px;
+  padding-bottom: 50px;
+}
+
+input.firstName, input.lastName{
+  padding-left:35px;
+  width: 215px;
+  background-image:url(../images/icon_name.png);
+}
+
+input.email{
+  background-image:url(../images/email.png);
+  padding-left:35px;
+  width: 215px;
+}
+
+input.phone{
+  background-image:url(../images/mobile.png);
+  padding-left: 35px;
+  width: 215px;
+}
+
+input.city{
+width: 150px;
+}
+
+input.address{
+}
+
+input.postcode{
+  width: 90px;
+}
+
+button.submit{
+  float: right;
+  background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+  border: 2px solid #DADADA;
+  padding:10px 25px;
+  color:#FFF;
+  margin: 15px 30px 20px 0px;
+  height: 40px;
+  width:  150px;
+}
+
+button.submit:hover{
+  background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); 
+  border: 2px solid #DADADA;
+  color: grey;
+}
+
+button.submit:focus{
+  background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+}
+
+.header{
+  background-color:rgba(245,245,245,0.89);
+  border-bottom: solid 1px #DADADA;
+  padding:20px 0 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: #DADADA solid 2px;
+}
+
+
+
+
+
+
