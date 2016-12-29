@@ -76,4 +76,8 @@ export class AppComponent  {
 
   model = new User('','','','','','','','','');
 
+  submitted = false;
+
+  onSubmit() { this.submitted = true; }
+
  }
