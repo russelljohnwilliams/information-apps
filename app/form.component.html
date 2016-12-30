@@ -7,14 +7,14 @@
     </div>
 
     <form (ngSubmit)="onSubmit()">
-      <div class="top-section">
-      <input type="text" class="firstName"
+      <div class="upper-section">
+      <input type="text" class="first-name icon"
              [(ngModel)]="model.firstName" name="firstName" placeholder="First Name" required>
-      <input type="text" class="lastName"
+      <input type="text" class="last-name icon"
              [(ngModel)]="model.lastName" name="lastName" placeholder="Last name" required>
-      <input type="text" class="email"
+      <input type="text" class="email icon"
              [(ngModel)]="model.email" name="email" placeholder="E-mail" required>
-      <input type="text" class="phone"
+      <input type="text" class="phone icon"
              [(ngModel)]="model.phone" name="phone" placeholder="Phone" required>
       </div>
 
@@ -45,14 +45,14 @@
     </div>
     
     <div class="upper-section">
-      <div class="col-xs-3">Name: {{ model.firstName }} {{model.lastName}}</div>
-      <div class="col-xs-3">E-mail: {{ model.email }}</div>
-      <div class="col-xs-3">Phone: {{ model.phone }}</div>
+      <div id="display-content">Name: {{ model.firstName }} {{model.lastName}}</div>
+      <div id="display-content">E-mail: {{ model.email }}</div>
+      <div id="display-content">Phone: {{ model.phone }}</div>
     </div>
 
     <div class="lower-section">
-      <div class="col-xs-3">Address: {{ model.address }}, {{ model.city }}, {{ model.postCode }}, {{ model.country}}</div>
-      <div class="col-xs-3">Additional info: {{ model.aditionalInfo }}</div>
+      <div id="display-content">Address: {{ model.address }}, {{ model.city }}, {{ model.postCode }}, {{ model.country}}</div>
+      <div id="display-content">Additional info: {{ model.additionalInfo }}</div>
     
       <br>
       <button class="submit" (click)="submitted=false">back</button>
